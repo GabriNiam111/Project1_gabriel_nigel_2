@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report, roc_auc_score, confusion_matr
 # CONFIGURATION & HYPERPARAMETERS (Easily tweak these settings anytime)
 # =====================================================================
 CONFIG = {
-    "data_path": "data/machine_sensor_data.csv",
+    "data_path": "data/ProjectData/proj_machine_readings_cleaned.csv",
     "target_column": "maintenance_required",
     "test_size": 0.2,            # Proportion of data used for testing (e.g., 0.2 = 20%)
     "n_estimators": 150,         # Number of trees in the forest
