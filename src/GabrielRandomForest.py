@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, roc_auc_score, confusion_matrix
 
 # =====================================================================
-# CONFIGURATION & HYPERPARAMETERS (Easily tweak these settings anytime)
+# CONFIGURATION & HYPERPARAMETERS (Versatility tweaks can be easily made here)
 # =====================================================================
 CONFIG = {
     "data_path": "data/ProjectData/proj_machine_readings_cleaned.csv",
